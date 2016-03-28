@@ -7,14 +7,15 @@
     "jade": "latest"
   },
   "devDependencies": {
+    "autoprefixer": "^6.3.5",
     "brfs": "latest",
     "browserify": "latest",
     "glob": "latest",
     "grunt": "latest",
-    "grunt-autoprefixer": "latest",
     "grunt-browserify": "^5.0.0",
     "grunt-contrib-concat": "latest",
     "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.8.0",
     "jasmine-core": "latest",
     "karma": "latest",
     "karma-browserify": "latest",

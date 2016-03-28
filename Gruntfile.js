@@ -23,8 +23,9 @@ module.exports = function(grunt) {
 
   grunt.initConfig(config);
 
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-browserify');
+  //grunt.loadNpmTasks('grunt-postcss');
+  //grunt.loadNpmTasks('grunt-contrib-watch');
+  //grunt.loadNpmTasks('grunt-browserify');
 
   require('load-grunt-tasks')(grunt);
 };

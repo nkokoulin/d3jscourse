@@ -13,7 +13,7 @@ module.exports = {
 
   css: {
     files: ['assets/css/*.css', 'assets/css/**/*.css'],
-    tasks: ['autoprefixer', 'concat:dev_css'],
+    tasks: ['postcss', 'concat:dev_css'],
     options: {
       spawn: false
     }
