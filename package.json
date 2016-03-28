@@ -1,0 +1,27 @@
+{
+  "name": "kit",
+  "version": "0.0.1",
+  "main": "server.js",
+  "dependencies": {
+    "express": "latest",
+    "jade": "latest"
+  },
+  "devDependencies": {
+    "brfs": "latest",
+    "browserify": "latest",
+    "glob": "latest",
+    "grunt": "latest",
+    "grunt-autoprefixer": "latest",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-watch": "^1.0.0",
+    "jasmine-core": "latest",
+    "karma": "latest",
+    "karma-browserify": "latest",
+    "karma-chrome-launcher": "latest",
+    "karma-jasmine": "latest",
+    "load-grunt-tasks": "latest",
+    "underscore": "latest",
+    "watchify": "latest"
+  }
+}
