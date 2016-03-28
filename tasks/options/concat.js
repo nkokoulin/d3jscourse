@@ -2,9 +2,7 @@ module.exports = {
   dev_js: {
     files: {
       'build/combined.js': [
-        'vendors/angular/angular.js',
-        'vendors/angular-animate/angular-animate.js',
-        'vendors/angular-ui-router/release/angular-ui-router.js',
+        'vendor/angular/angular.js',
         'build/combined.js'
       ]
     }
@@ -13,7 +11,7 @@ module.exports = {
   dev_css: {
     files: {
       'build/combined.css': [
-        'vendors/normalize-css/normalize.css',
+        'vendor/normalize-css/normalize.css',
         'build/combined.css'
       ]
     }

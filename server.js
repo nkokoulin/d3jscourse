@@ -5,6 +5,9 @@ var path    = require('path');
 
 app.set('view engine', 'jade');
 
+app.use('/build', express.static(path.join(__dirname, '/build')));
+app.use('/vendor', express.static(path.join(__dirname, '/vendor')));
+
 app.get('/kit', function(req, res, next) {
   res.render('main', {
     pageTitle: 'Главная страница'
@@ -13,4 +16,5 @@ app.get('/kit', function(req, res, next) {
 
 app.use('/', router);
 
-app.listen(8880);
+app.listen(8080);
+console.log('server listening at post 8080');
