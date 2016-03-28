@@ -1,2 +1,4 @@
 require('./modules/d3');
-var app = angular.module('kitApp', ['d3']);
+require('./modules/directives');
+
+var app = angular.module('kitApp', ['d3', 'kitApp.directives']);

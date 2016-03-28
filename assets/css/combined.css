@@ -1,7 +1,32 @@
-body {
-  margin: 30px;
-  padding: 0;
+#container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
 }
 
-#container {
+.kit-editor {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.svg-border {
+  pointer-events: none;
+  stroke: #A9B0B8;
+  stroke-width: 1.5;
+  fill: none;
+}
+
+g.axis {
+  pointer-events: none;
+  display: inline;
+}
+
+.axis line {
+  fill:none;
+  stroke: #ddd;
+  shape-rendering: crispEdges;
+  vector-effect: non-scaling-stroke;
 }

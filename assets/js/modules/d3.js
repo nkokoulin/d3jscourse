@@ -1,4 +1,4 @@
-angular.module('d3', []).factory('d3Factory',
+angular.module('d3', []).factory('d3Service',
   ['$document', '$q', '$rootScope', '$window', function($document, $q, $rootScope, $window) {
 
     function onScriptLoad() {
@@ -18,7 +18,7 @@ angular.module('d3', []).factory('d3Factory',
       if (this.readyState = 'complete') onScriptLoad();
     }
 
-    var b = $document[0].getElementByTagName('body')[0];
+    var b = $document[0].getElementsByTagName('body')[0];
     b.appendChild(scriptTag);
 
     return {
